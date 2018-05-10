@@ -7,10 +7,16 @@ $bg_4_path: "../assets/background_1.jpg";
 // Color codes
 $powder_blue: #B0E0E6;
 $green_yellow: #ADFF2F;
+$dark_olive_green: #556B2F;
+$black_olive: #3B3C36;
 
 // Color scheme
 $nav_background: $powder_blue;
 $nav_active: $green_yellow;
+$nav_hover: $green_yellow;
+$nav_text_color: $dark_olive_green;
+$footer_text_color: $black_olive;
+$footer_link_color: $dark_olive_green; 
 
 // Responsive CSS
 @media(min-width: 1200px){
@@ -61,11 +67,11 @@ $nav_active: $green_yellow;
 
 #footer{
   background-color: $nav_background;
-  color: #ddd;
+  color: $footer_text_color;
 }
 
 #footer > p > a {
-  color: #5cf;
+  color: $footer_link_color;
 }
 
 .jumbotron{
@@ -78,19 +84,10 @@ $nav_active: $green_yellow;
   background-color: $nav_active!important;
 }
 
-.navbar .nav > li > a {
-  color:  #ddd;
+.nav-pills > li > a {
+  color:  $nav_text_color;
 }
 
-.navbar .nav > li > a:hover {
-  color:  #fff;
+.nav-pills > li > a:hover {
+  background-color: $nav_hover!important;
 }
-
-hr.divider {
-  background-color: rgba(0, 0, 0, 0);
-  width: 100%;
-  height: 1px;
-  border-top: 1px solid #bbb;
-  border-bottom: 1px solid #bbb;
-}
-

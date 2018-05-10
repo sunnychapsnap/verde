@@ -15,10 +15,10 @@
 
 #footer {
   background-color: #B0E0E6;
-  color: #ddd; }
+  color: #3B3C36; }
 
 #footer > p > a {
-  color: #5cf; }
+  color: #556B2F; }
 
 .jumbotron {
   min-height: 750px;
@@ -28,17 +28,10 @@
 .nav-pills > li > a.active {
   background-color: #ADFF2F !important; }
 
-.navbar .nav > li > a {
-  color: #ddd; }
+.nav-pills > li > a {
+  color: #556B2F; }
 
-.navbar .nav > li > a:hover {
-  color: #fff; }
-
-hr.divider {
-  background-color: rgba(0, 0, 0, 0);
-  width: 100%;
-  height: 1px;
-  border-top: 1px solid #bbb;
-  border-bottom: 1px solid #bbb; }
+.nav-pills > li > a:hover {
+  background-color: #ADFF2F !important; }
 
 /*# sourceMappingURL=style.css.map */

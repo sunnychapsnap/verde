@@ -4,58 +4,15 @@ $bg_2_path: "../assets/background_1.jpg";
 $bg_3_path: "../assets/flowers_red.jpg";
 $bg_4_path: "../assets/background_1.jpg";
 
-// CSS template
-#pg_1{
-  background-image: url($bg_1_path);
-}
+// Color codes
+$powder_blue: #B0E0E6;
+$green_yellow: #ADFF2F;
 
+// Color scheme
+$nav_background: $powder_blue;
+$nav_active: $green_yellow;
 
-#pg_2{
-    background-image: url($bg_2_path);
-}
-
-#pg_3{
-    background-image: url($bg_3_path);
-}
-
-#pg_4{
-  background-image: url($bg_4_path);
-}
-
-#footer{
-  color: #ddd;
-}
-
-#footer > p > a {
-  color: #5cf;
-}
-
-.jumbotron{
-  min-height: 750px;
-  background-size: cover;
-  margin-bottom: 0px;
-}
-
-.nav-pills > li > a.active {
-  background-color: #050505!important;
-}
-
-.navbar .nav > li > a {
-  color:  #ddd;
-}
-
-.navbar .nav > li > a:hover {
-  color:  #fff;
-}
-
-hr.divider {
-  background-color: rgba(0, 0, 0, 0);
-  width: 100%;
-  height: 1px;
-  border-top: 1px solid #bbb;
-  border-bottom: 1px solid #bbb;
-}
-
+// Responsive CSS
 @media(min-width: 1200px){
 
 }
@@ -79,3 +36,61 @@ hr.divider {
 @media(max-width: 399px){
 
 }
+
+// CSS template
+#nav-top{
+  background-color: $nav_background;
+}
+
+#pg_1{
+  background-image: url($bg_1_path);
+}
+
+
+#pg_2{
+    background-image: url($bg_2_path);
+}
+
+#pg_3{
+    background-image: url($bg_3_path);
+}
+
+#pg_4{
+  background-image: url($bg_4_path);
+}
+
+#footer{
+  background-color: $nav_background;
+  color: #ddd;
+}
+
+#footer > p > a {
+  color: #5cf;
+}
+
+.jumbotron{
+  min-height: 750px;
+  background-size: cover;
+  margin-bottom: 0px;
+}
+
+.nav-pills > li > a.active {
+  background-color: $nav_active!important;
+}
+
+.navbar .nav > li > a {
+  color:  #ddd;
+}
+
+.navbar .nav > li > a:hover {
+  color:  #fff;
+}
+
+hr.divider {
+  background-color: rgba(0, 0, 0, 0);
+  width: 100%;
+  height: 1px;
+  border-top: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
+}
+

@@ -1,3 +1,27 @@
+@media (min-width: 1200px) {
+  #pg_1_logo_img {
+    width: 350px;
+    height: 350px; } }
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  #pg_1_logo_img {
+    width: 350px;
+    height: 350px; } }
+@media all and (min-width: 768px) and (max-width: 991px) {
+  #pg_1_logo_img {
+    width: 350px;
+    height: 350px; } }
+@media all and (min-width: 576px) and (max-width: 767px) {
+  #pg_1_logo_img {
+    width: 350px;
+    height: 350px; } }
+@media all and (min-width: 400) and (max-width: 575px) {
+  #pg_1_logo_img {
+    width: 350px;
+    height: 350px; } }
+@media (max-width: 399px) {
+  #pg_1_logo_img {
+    width: 350px;
+    height: 350px; } }
 body {
   font-family: "Arima Madurai", cursive; }
 
@@ -10,7 +34,7 @@ body {
   background-image: url("../assets/background_1.jpg"); }
 
 #pg_1_body {
-  padding: 40px 0px 0px 0px; }
+  padding: 20px 0px 0px 0px; }
 
 #pg_1_logo {
   margin-top: 25px;

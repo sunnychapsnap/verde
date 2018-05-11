@@ -32,35 +32,54 @@ $testimonials_text_size: 1.2em;
 $testimonials_text_weight: italic;
 
 // Layout and positioning
-$pg_1_body_padding: 40px 0px 0px 0px;
+$pg_1_body_padding: 20px 0px 0px 0px;
 $box_corner_radius: 25px;
 $box_padding: 25px;
 $logo_padding: 50px;
 $logo_corner_radius: 50%;
+$logo_size_lg: 350px;
 
 // Responsive CSS
 @media(min-width: 1200px) {
-
+  #pg_1_logo_img {
+    width: $logo_size_lg;
+    height: $logo_size_lg;
+  }
 }
 
 @media all and (min-width: 992px) and (max-width: 1199px) {
-
+  #pg_1_logo_img {
+    width: $logo_size_lg;
+    height: $logo_size_lg;
+  }
 }
 
 @media all and (min-width: 768px) and (max-width: 991px) {
-
+  #pg_1_logo_img {
+    width: $logo_size_lg;
+    height: $logo_size_lg;
+  }
 }
 
 @media all and (min-width: 576px) and (max-width: 767px) {
-
+  #pg_1_logo_img {
+    width: $logo_size_lg;
+    height: $logo_size_lg;
+  }
 }
 
 @media all and (min-width: 400) and (max-width: 575px) {
-
+  #pg_1_logo_img {
+    width: $logo_size_lg;
+    height: $logo_size_lg;
+  }
 }
 
 @media(max-width: 399px) {
-
+  #pg_1_logo_img {
+    width: $logo_size_lg;
+    height: $logo_size_lg;
+  }
 }
 
 // CSS template

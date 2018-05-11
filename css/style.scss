@@ -175,3 +175,10 @@ body {
 .row {
   padding: 10px;
 }
+
+// The following code is necessary for photo gallery widget to work
+.galleria {
+  max-width: 700px;
+  height: 400px;
+  background: #000 
+}

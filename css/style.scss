@@ -24,69 +24,70 @@ $footer_text_color: $black_olive;
 $footer_link_color: $dark_olive_green; 
 
 // Layout and positioning
-$pg_1_body_padding: 50px 0px 0px 0px;
+$pg_1_body_padding: 40px 0px 0px 0px;
 $box_corner_radius: 25px;
 $box_padding: 25px;
 $logo_padding: 50px;
 $logo_corner_radius: 50%;
 
 // Responsive CSS
-@media(min-width: 1200px){
+@media(min-width: 1200px) {
 
 }
 
-@media all and (min-width: 992px) and (max-width: 1199px){
+@media all and (min-width: 992px) and (max-width: 1199px) {
 
 }
 
-@media all and (min-width: 768px) and (max-width: 991px){
+@media all and (min-width: 768px) and (max-width: 991px) {
 
 }
 
-@media all and (min-width: 576px) and (max-width: 767px){
+@media all and (min-width: 576px) and (max-width: 767px) {
 
 }
 
-@media all and (min-width: 400) and (max-width: 575px){
+@media all and (min-width: 400) and (max-width: 575px) {
 
 }
 
-@media(max-width: 399px){
+@media(max-width: 399px) {
 
 }
 
 // CSS template
-#nav-top{
+#nav-top {
   background-color: $nav_background;
 }
 
-#pg_1{
+#pg_1 {
   background-image: url($bg_1_path);
 }
 
-#pg_1_body{
+#pg_1_body {
   padding: $pg_1_body_padding;
 }
 
-#pg_1_logo{
+#pg_1_logo {
+  margin-top: 25px;
   padding: $logo_padding;
   border-radius: $logo_corner_radius;
   background-color: $box_background;
 }
 
-#pg_2{
+#pg_2 {
     background-image: url($bg_2_path);
 }
 
-#pg_3{
+#pg_3 {
     background-image: url($bg_3_path);
 }
 
-#pg_4{
+#pg_4 {
   background-image: url($bg_4_path);
 }
 
-#footer{
+#footer {
   background-color: $nav_background;
   color: $footer_text_color;
 }
@@ -130,4 +131,8 @@ $logo_corner_radius: 50%;
 
 .navbar-toggler:hover {
   cursor: pointer;
+}
+
+.row {
+  padding: 10px;
 }

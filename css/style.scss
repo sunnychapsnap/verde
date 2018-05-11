@@ -5,6 +5,7 @@ $bg_3_path: "../assets/background_3.jpg";
 $bg_4_path: "../assets/background_4.jpg";
 
 // Color codes
+$black: #000000;
 $powder_blue: #B0E0E6;
 $green_yellow: #ADFF2F;
 $dark_olive_green: #556B2F;
@@ -94,4 +95,16 @@ $footer_link_color: $dark_olive_green;
 
 .nav-pills > li > a:hover {
   background-color: $nav_hover!important;
+}
+
+.navbar-toggler {
+  padding: 12px 10px 2px 10px;
+  border: solid 1px $nav_active;
+  border-radius: 5px;
+  background-color: $nav_active;
+  color: $nav_text_color;
+}
+
+.navbar-toggler:hover {
+  cursor: pointer;
 }

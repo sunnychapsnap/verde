@@ -35,4 +35,14 @@
 .nav-pills > li > a:hover {
   background-color: #C7FF00 !important; }
 
+.navbar-toggler {
+  padding: 12px 10px 2px 10px;
+  border: solid 1px #C7FF00;
+  border-radius: 5px;
+  background-color: #C7FF00;
+  color: #3B3C36; }
+
+.navbar-toggler:hover {
+  cursor: pointer; }
+
 /*# sourceMappingURL=style.css.map */

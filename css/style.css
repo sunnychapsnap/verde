@@ -1,5 +1,10 @@
+body {
+  font-family: "Arima Madurai", cursive; }
+
 #nav-top {
-  background-color: #80CA2B; }
+  background-color: #80CA2B;
+  font-family: "Berkshire Swash", cursive;
+  font-size: 1em; }
 
 #pg_1 {
   background-image: url("../assets/background_1.jpg"); }
@@ -12,6 +17,11 @@
   padding: 50px;
   border-radius: 50%;
   background-color: #80CA2B; }
+
+#pg_1_testimonials {
+  font-family: "Berkshire Swash", cursive;
+  font-size: 1.2em;
+  font-weight: italic; }
 
 #pg_2 {
   background-image: url("../assets/background_2.jpg"); }

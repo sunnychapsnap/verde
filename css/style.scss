@@ -23,6 +23,14 @@ $box_background: $lima;
 $footer_text_color: $black_olive;
 $footer_link_color: $dark_olive_green; 
 
+// Fonts
+$main_font: 'Arima Madurai', cursive;
+$nav_font: 'Berkshire Swash', cursive;
+$nav_text_size: 1em;
+$testimonials_font: 'Berkshire Swash', cursive;
+$testimonials_text_size: 1.2em;
+$testimonials_text_weight: italic;
+
 // Layout and positioning
 $pg_1_body_padding: 40px 0px 0px 0px;
 $box_corner_radius: 25px;
@@ -56,8 +64,14 @@ $logo_corner_radius: 50%;
 }
 
 // CSS template
+body {
+  font-family: $main_font;
+}
+
 #nav-top {
   background-color: $nav_background;
+  font-family: $nav_font;
+  font-size: $nav_text_size;
 }
 
 #pg_1 {
@@ -73,6 +87,12 @@ $logo_corner_radius: 50%;
   padding: $logo_padding;
   border-radius: $logo_corner_radius;
   background-color: $box_background;
+}
+
+#pg_1_testimonials {
+  font-family: $testimonials_font;
+  font-size: $testimonials_text_size;
+  font-weight: $testimonials_text_weight;
 }
 
 #pg_2 {

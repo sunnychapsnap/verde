@@ -4,6 +4,9 @@
 #pg_1 {
   background-image: url("../assets/background_1.jpg"); }
 
+#pg_1_body {
+  padding: 50px 0px 0px 0px; }
+
 #pg_2 {
   background-image: url("../assets/background_2.jpg"); }
 
@@ -24,6 +27,11 @@
   min-height: 750px;
   background-size: cover;
   margin-bottom: 0px; }
+
+.boxcard {
+  background-color: #80CA2B;
+  padding: 25px;
+  border-radius: 25px; }
 
 .nav-pills > li > a.active {
   background-color: #C7FF00 !important;

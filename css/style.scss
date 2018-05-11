@@ -9,12 +9,15 @@ $powder_blue: #B0E0E6;
 $green_yellow: #ADFF2F;
 $dark_olive_green: #556B2F;
 $black_olive: #3B3C36;
+$lima: #80CA2B;
+$pale_lime: #C7FF00;
 
 // Color scheme
-$nav_background: $powder_blue;
-$nav_active: $green_yellow;
-$nav_hover: $green_yellow;
-$nav_text_color: $dark_olive_green;
+$nav_background: $lima;
+$nav_active: $pale_lime;
+$nav_hover: $pale_lime;
+$nav_text_color: $black_olive;
+$nav_text_color_active: $black_olive;
 $footer_text_color: $black_olive;
 $footer_link_color: $dark_olive_green; 
 
@@ -82,6 +85,7 @@ $footer_link_color: $dark_olive_green;
 
 .nav-pills > li > a.active {
   background-color: $nav_active!important;
+  color: $nav_text_color_active!important;
 }
 
 .nav-pills > li > a {

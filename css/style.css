@@ -1,5 +1,5 @@
 #nav-top {
-  background-color: #B0E0E6; }
+  background-color: #80CA2B; }
 
 #pg_1 {
   background-image: url("../assets/background_1.jpg"); }
@@ -14,7 +14,7 @@
   background-image: url("../assets/background_4.jpg"); }
 
 #footer {
-  background-color: #B0E0E6;
+  background-color: #80CA2B;
   color: #3B3C36; }
 
 #footer > p > a {
@@ -26,12 +26,13 @@
   margin-bottom: 0px; }
 
 .nav-pills > li > a.active {
-  background-color: #ADFF2F !important; }
+  background-color: #C7FF00 !important;
+  color: #3B3C36 !important; }
 
 .nav-pills > li > a {
-  color: #556B2F; }
+  color: #3B3C36; }
 
 .nav-pills > li > a:hover {
-  background-color: #ADFF2F !important; }
+  background-color: #C7FF00 !important; }
 
 /*# sourceMappingURL=style.css.map */

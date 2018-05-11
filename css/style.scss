@@ -12,6 +12,7 @@ $dark_olive_green: #556B2F;
 $black_olive: #3B3C36;
 $lima: #80CA2B;
 $pale_lime: #C7FF00;
+$phthalo_green: #123524;
 
 // Color scheme
 $nav_background: $lima;
@@ -21,7 +22,8 @@ $nav_text_color: $black_olive;
 $nav_text_color_active: $black_olive;
 $box_background: $lima;
 $footer_text_color: $black_olive;
-$footer_link_color: $dark_olive_green; 
+$link_color: $phthalo_green; 
+$link_color_hover: $pale_lime;
 
 // Fonts
 $main_font: 'Arima Madurai', cursive;
@@ -92,6 +94,14 @@ h1, h2, h3, h4, h5 {
   font-family: $header_font;
 }
 
+a {
+  color: $link_color;
+}
+
+a:hover {
+  color: $link_color_hover;
+}
+
 #nav-top {
   background-color: $nav_background;
   font-family: $nav_font;
@@ -134,10 +144,6 @@ h1, h2, h3, h4, h5 {
 #footer {
   background-color: $nav_background;
   color: $footer_text_color;
-}
-
-#footer > p > a {
-  color: $footer_link_color;
 }
 
 .jumbotron{

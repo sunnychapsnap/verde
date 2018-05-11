@@ -27,6 +27,8 @@ $footer_link_color: $dark_olive_green;
 $pg_1_body_padding: 50px 0px 0px 0px;
 $box_corner_radius: 25px;
 $box_padding: 25px;
+$logo_padding: 50px;
+$logo_corner_radius: 50%;
 
 // Responsive CSS
 @media(min-width: 1200px){
@@ -64,6 +66,12 @@ $box_padding: 25px;
 
 #pg_1_body{
   padding: $pg_1_body_padding;
+}
+
+#pg_1_logo{
+  padding: $logo_padding;
+  border-radius: $logo_corner_radius;
+  background-color: $box_background;
 }
 
 #pg_2{

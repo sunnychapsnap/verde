@@ -31,13 +31,12 @@ $header_font: 'Berkshire Swash', cursive;
 $nav_font: 'Berkshire Swash', cursive;
 $nav_text_size: 1em;
 $testimonials_font: 'Berkshire Swash', cursive;
-$testimonials_text_size: 1.2em;
 $testimonials_text_weight: italic;
 
 // Layout and positioning
 $pg_1_body_padding: 20px 0px 0px 0px;
 $box_corner_radius: 25px;
-$box_padding: 25px;
+$box_padding: 25px 25px 10px 25px;
 $logo_padding: 50px;
 $logo_corner_radius: 50%;
 $logo_size_lg: 350px;
@@ -125,8 +124,20 @@ a:hover {
 
 #pg_1_testimonials {
   font-family: $testimonials_font;
-  font-size: $testimonials_text_size;
   font-weight: $testimonials_text_weight;
+  padding: 25px 25px 0px 5px;
+}
+
+#quote-revolver {
+  list-style-type: none;
+}
+
+.testimonial-compact {
+  font-size: 0.9em;
+}
+
+.testimonial-lg {
+  font-size: 1.2em;
 }
 
 #pg_2 {

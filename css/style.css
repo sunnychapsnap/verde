@@ -53,8 +53,17 @@ a:hover {
 
 #pg_1_testimonials {
   font-family: "Berkshire Swash", cursive;
-  font-size: 1.2em;
-  font-weight: italic; }
+  font-weight: italic;
+  padding: 25px 25px 0px 5px; }
+
+#quote-revolver {
+  list-style-type: none; }
+
+.testimonial-compact {
+  font-size: 0.9em; }
+
+.testimonial-lg {
+  font-size: 1.2em; }
 
 #pg_2 {
   background-image: url("../assets/background_2.jpg"); }
@@ -76,7 +85,7 @@ a:hover {
 
 .boxcard {
   background-color: #80CA2B;
-  padding: 25px;
+  padding: 25px 25px 10px 25px;
   border-radius: 25px; }
 
 .nav-pills > li > a.active {

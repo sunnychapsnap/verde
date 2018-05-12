@@ -19,10 +19,14 @@
   <!-- Stylesheet -->
   <link rel="stylesheet" href="css/style.css">
 
-  <!-- javascript links -->
+  <!-- Javascript libraries and modules -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/galleria.min.js"></script>
+  <script src="./javascript/libraries/quovolver/jquery.quovolver.min.js"></script>
+
+  <!-- Script called once page loads -->
+  <script src="./javascript/onDocReady.js"></script>
 </head>
 
 <!-- Begin page body -->
@@ -71,14 +75,66 @@
         <div class="row">
           <div class="col-md-10">
             <div id="pg_1_testimonials" class="boxcard">
-              <p>
-                “Verde Natural Florals did an amazing job with the flowers at our wedding!
-                 It was an October wedding in a rural setting, and Sandy's arrangements 
-                 were the perfect compliment to the simplicity of the day.”
-              </p>
-              <p>
-                - Jessica M.
-              </p>
+
+              <ul id="quote-revolver">
+                <li>
+                  <blockquote>
+                    <p class="testimonial-lg">
+                      “Verde Natural Florals did an amazing job with the flowers at our wedding!
+                       It was an October wedding in a rural setting, and Sandy's arrangements 
+                       were the perfect compliment to the simplicity of the day.”
+                    </p>
+                    <p class="testimonial-lg">
+                      - Jessica M.
+                    </p>
+                  </blockquote>
+                </li>
+
+                <li>
+                  <blockquote>
+                    <p class="testimonial-lg">
+                      “We received so many compliments after the wedding about how beautiful the 
+                       flowers were. It truly was a joy to work with Sandy and I absolutely 
+                       recommend her to others without reservation!”
+                    </p>
+                    <p class="testimonial-lg">
+                       - Ashley B.
+                    </p>
+                  </blockquote>
+                </li>
+
+                <li>
+                  <blockquote>
+                    <p class="testimonial-compact">
+                      “It was a wonderful experience to work with Sandy. We wanted local, 
+                       in-season flowers that would compliment the setting of our wedding at a 
+                       local vineyard, and we relied on Sandy to pick out whatever looked great 
+                       the week of our wedding. The results were beautiful and exceeded my 
+                       expectations. Her prices are very reasonable, and unlike other florists, 
+                       she did not pressure us to spend more or purchase more items. I highly 
+                       recommend Verde Natural Florals!”
+                    </p>
+                    <p>
+                      - Amy W.
+                    </p>
+                  </blockquote>
+                </li>
+
+                <li>
+                  <blockquote>
+                    <p class="testimonial-lg">
+                      “Sandy did the most amazing job on my flowers and bouquets for my wedding. 
+                       I told her I wanted a natural feel with fall colors and maybe some 
+                       splashes of herbs and I got just that. She knew exactly what I wanted 
+                       and did more than I could have asked for.”
+                    </p>
+                    <p class="testimonial-lg">
+                      - Danner A.
+                    </p>
+                  </blockquote>
+                </li>
+              </ul>
+
             </div>
           </div>
           <div class="col-md-2">

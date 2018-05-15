@@ -89,20 +89,20 @@ a:hover {
   border-radius: 25px; }
 
 .nav-pills > li > a.active {
-  background-color: #C7FF00 !important;
+  background-color: #8A9A5B !important;
   color: #000000 !important; }
 
 .nav-pills > li > a {
   color: #000000; }
 
 .nav-pills > li > a:hover {
-  background-color: #C7FF00 !important; }
+  background-color: #8A9A5B !important; }
 
 .navbar-toggler {
   padding: 12px 10px 2px 10px;
-  border: solid 1px #C7FF00;
+  border: solid 1px #8A9A5B;
   border-radius: 5px;
-  background-color: #C7FF00;
+  background-color: #8A9A5B;
   color: #000000; }
 
 .navbar-toggler:hover {

@@ -76,7 +76,7 @@ a:hover {
 
 #footer {
   background-color: #8A9A5B;
-  color: #3B3C36; }
+  color: #000000; }
 
 .jumbotron {
   min-height: 750px;
@@ -90,10 +90,10 @@ a:hover {
 
 .nav-pills > li > a.active {
   background-color: #C7FF00 !important;
-  color: #3B3C36 !important; }
+  color: #000000 !important; }
 
 .nav-pills > li > a {
-  color: #3B3C36; }
+  color: #000000; }
 
 .nav-pills > li > a:hover {
   background-color: #C7FF00 !important; }
@@ -103,7 +103,7 @@ a:hover {
   border: solid 1px #C7FF00;
   border-radius: 5px;
   background-color: #C7FF00;
-  color: #3B3C36; }
+  color: #000000; }
 
 .navbar-toggler:hover {
   cursor: pointer; }

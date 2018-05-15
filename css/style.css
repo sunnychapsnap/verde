@@ -35,7 +35,7 @@ a:hover {
   color: #C7FF00; }
 
 #nav-top {
-  background-color: #8A9A5B;
+  background-color: #ADDFAD;
   font-family: "Berkshire Swash", cursive;
   font-size: 1em; }
 
@@ -49,7 +49,7 @@ a:hover {
   margin-top: 25px;
   padding: 50px;
   border-radius: 50%;
-  background-color: #8A9A5B; }
+  background-color: #ADDFAD; }
 
 #pg_1_testimonials {
   font-family: "Berkshire Swash", cursive;
@@ -75,7 +75,7 @@ a:hover {
   background-image: url("../assets/background_4.jpg"); }
 
 #footer {
-  background-color: #8A9A5B;
+  background-color: #ADDFAD;
   color: #000000; }
 
 .jumbotron {
@@ -84,7 +84,7 @@ a:hover {
   margin-bottom: 0px; }
 
 .boxcard {
-  background-color: #8A9A5B;
+  background-color: #ADDFAD;
   padding: 25px 25px 10px 25px;
   border-radius: 25px; }
 

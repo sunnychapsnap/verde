@@ -12,6 +12,7 @@
   <!-- Libraries  -->  
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="./plugins/gallery/css/blueimp-gallery.min.css">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Arima+Madurai" rel="stylesheet">
@@ -22,7 +23,6 @@
   <!-- Javascript libraries and modules -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/galleria.min.js"></script>
   <script src="./javascript/libraries/quovolver/jquery.quovolver.min.js"></script>
 
   <!-- Script called once page loads -->
@@ -32,6 +32,17 @@
 <!-- Begin page body -->
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<!-- Gallery popup tags -->
+<div id="blueimp-gallery" class="blueimp-gallery">
+    <div class="slides"></div>
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+</div>
 
 <!-- Navbar -->
 <nav id="nav-top" class="navbar fixed-top navbar-toggleable">
@@ -223,26 +234,178 @@
       <div class="col-md-4">
       </div>
       <div class="col-md-6">
-        <div class="galleria">
-          <img src="./assets/gallery/01_AimeeSusanahPhotography.jpg" alt="Photograph by Aimee Susanah Photography" />
-          <img src="./assets/gallery/02_LeahValentineHill.jpg" alt="Photograph by Leah Valentine Hill" />
-          <img src="./assets/gallery/03_GlenFayotaPhotography.jpg" alt="Photograph by Glen Fayota Photography" />
-          <img src="./assets/gallery/04_JarnettePhotography.jpg" alt="Photograph by JarnetteP hotography" />
-          <img src="./assets/gallery/05_WardPhotography.jpg" alt="Photograph by Ward Photography" />
-          <img src="./assets/gallery/06_JarnettPhotography.jpg" alt="Photograph by Jarnett Photography" />
-          <img src="./assets/gallery/07_MegRunionPhotography.jpg" alt="Photograph by Meg Runion Photography" />
-          <img src="./assets/gallery/08_StellarPhotography.jpg" alt="Photograph by Stellar Photography" />
-          <img src="./assets/gallery/09_AimeeSusanahPhotography.jpg" alt="Photograph by Aimee Susanah Photography" />
-          <img src="./assets/gallery/10_JeffGreenoughPhotography.jpg" alt="Photograph by Jeff Greenough Photography" />
-          <img src="./assets/gallery/11_JeffGreenoughPhotography.jpg" alt="Photograph by Jeff Greenough Photography" />
-          <img src="./assets/gallery/12_GiniaDavis.jpg" alt="Photograph by Ginia Davis" />
-          <img src="./assets/gallery/13_CelestialSightsPhotography.jpg" alt="Photograph by Celestial Sights Photography" />
-          <img src="./assets/gallery/14_AndreaHubbellPhotography.jpg" alt="Photograph by Andrea Hubbell Photography" />
-          <img src="./assets/gallery/15_LauraLangPhotography.jpg" alt="Photograph by Laura Lang Photography" />
-          <img src="./assets/gallery/16_MauzyWedding.jpg" alt="Photograph by Mauzy Wedding" />
-          <img src="./assets/gallery/17_KristinSinnPhotography.jpg" alt="Photograph by Kristin Sinn Photography" />
+
+        
+
+        <div id="links">
+
+          <a href="./assets/gallery/01_AimeeSusanahPhotography.jpg" title="Photograph by Aimee Susanah Photography">
+            <img src="./assets/gallery/01_AimeeSusanahPhotography.jpg" 
+              alt="Photograph by Aimee Susanah Photography" 
+              class="img-thumbnail" 
+              width="100" 
+              height="100" 
+            />
+          </a>
+          
+          <a href="./assets/gallery/02_LeahValentineHill.jpg" title="Photograph by Leah Valentine Hill">
+            <img src="./assets/gallery/02_LeahValentineHill.jpg" 
+              alt="Photograph by Leah Valentine Hill" 
+              class="img-thumbnail" 
+              width="100" 
+              height="100" 
+            />
+          </a>
+          
+          <a href="./assets/gallery/03_GlenFayotaPhotography.jpg" title="Photograph by Glen Fayota Photography">
+            <img src="./assets/gallery/03_GlenFayotaPhotography.jpg" 
+              alt="Photograph by Glen Fayota Photography" 
+              class="img-thumbnail" 
+              width="100" 
+              height="100" 
+            />
+          </a>
+          
+          <a href="./assets/gallery/04_JarnettePhotography.jpg" title="Photograph by Jarnette Photography">
+            <img src="./assets/gallery/04_JarnettePhotography.jpg" 
+              alt="Photograph by Jarnette Photography" 
+              class="img-thumbnail" 
+              width="100" 
+              height="100" 
+            />
+          </a>
+          
+          <a href="./assets/gallery/05_WardPhotography.jpg" title="Photograph by Ward Photography">
+            <img src="./assets/gallery/05_WardPhotography.jpg" 
+              alt="Photograph by Ward Photography" 
+              class="img-thumbnail" 
+              width="100" 
+              height="100" 
+            />
+          </a>
+          
+          <a href="./assets/gallery/06_JarnettPhotography.jpg" title="Photograph by Jarnett Photography">
+            <img src="./assets/gallery/06_JarnettPhotography.jpg" 
+              alt="Photograph by Jarnett Photography" 
+              class="img-thumbnail" 
+              width="100" 
+              height="100" 
+            />
+          </a>
+          
+          <a href="./assets/gallery/07_MegRunionPhotography.jpg" title="Photograph by Meg Runion Photography">
+            <img src="./assets/gallery/07_MegRunionPhotography.jpg" 
+              alt="Photograph by Meg Runion Photography" 
+              class="img-thumbnail" 
+              width="100" 
+              height="100" 
+            />
+          </a>
+          
+          <a href="./assets/gallery/08_StellarPhotography.jpg" title="Photograph by Stellar Photography">
+            <img src="./assets/gallery/08_StellarPhotography.jpg" 
+              alt="Photograph by Stellar Photography" 
+              class="img-thumbnail" 
+              width="100" 
+              height="100" 
+            />
+          </a>
+          
+          <a href="./assets/gallery/09_AimeeSusanahPhotography.jpg" title="Photograph by Aimee Susanah Photography">
+            <img src="./assets/gallery/09_AimeeSusanahPhotography.jpg" 
+              alt="Photograph by Aimee Susanah Photography" 
+              class="img-thumbnail" 
+              width="100" 
+              height="100" 
+            />
+          </a>
+          
+          <a href="./assets/gallery/10_JeffGreenoughPhotography.jpg" title="Photograph by Jeff Greenough Photography">
+            <img src="./assets/gallery/10_JeffGreenoughPhotography.jpg" 
+              alt="Photograph by Jeff Greenough Photography" 
+              class="img-thumbnail" 
+              width="100" 
+              height="100" 
+            />
+          </a>
+          
+          <a href="./assets/gallery/11_JeffGreenoughPhotography.jpg" title="Photograph by Jeff Greenough Photography">
+            <img src="./assets/gallery/11_JeffGreenoughPhotography.jpg" 
+              alt="Photograph by Jeff Greenough Photography" 
+              class="img-thumbnail" 
+              width="100" 
+              height="100" 
+            />
+          </a>
+          
+          <a href="./assets/gallery/12_GiniaDavis.jpg" title="Photograph by Ginia Davis">
+            <img src="./assets/gallery/12_GiniaDavis.jpg" 
+              alt="Photograph by Ginia Davis" 
+              class="img-thumbnail" 
+              width="100" 
+              height="100" 
+            />
+          </a>
+          
+          <a href="./assets/gallery/13_CelestialSightsPhotography.jpg" title="Photograph by Celestial Sights Photography">
+            <img src="./assets/gallery/13_CelestialSightsPhotography.jpg" 
+              alt="Photograph by Celestial Sights Photography" 
+              class="img-thumbnail" 
+              width="100" 
+              height="100" 
+            />
+          </a>
+          
+          <a href="./assets/gallery/14_AndreaHubbellPhotography.jpg" title="Photograph by Andrea Hubbell Photography">
+            <img src="./assets/gallery/14_AndreaHubbellPhotography.jpg" 
+              alt="Photograph by Andrea Hubbell Photography" 
+              class="img-thumbnail" 
+              width="100" 
+              height="100" 
+            />
+          </a>
+          
+          <a href="./assets/gallery/15_LauraLangPhotography.jpg" title="Photograph by Laura Lang Photography">
+            <img src="./assets/gallery/15_LauraLangPhotography.jpg" 
+              alt="Photograph by Laura Lang Photography" 
+              class="img-thumbnail" 
+              width="100" 
+              height="100" 
+            />
+          </a>
+          
+          <a href="./assets/gallery/16_MauzyWedding.jpg" title="Photograph by Mauzy Wedding">
+            <img src="./assets/gallery/16_MauzyWedding.jpg" 
+              alt="Photograph by Mauzy Wedding" 
+              class="img-thumbnail" 
+              width="100" 
+              height="100" 
+            />
+          </a>
+          
+          <a href="./assets/gallery/17_KristinSinnPhotography.jpg" title="Photograph by Kristin Sinn Photography">
+            <img src="./assets/gallery/17_KristinSinnPhotography.jpg" 
+              alt="Photograph by Kristin Sinn Photography" 
+              class="img-thumbnail" 
+              width="100" 
+              height="100" 
+            />
+          </a>
+          
+          <!-- Script for gallery plugin  -->
+          <script>
+            document.getElementById('links').onclick = function (event) {
+              event = event || window.event;
+              var target = event.target || event.srcElement,
+              link = target.src ? target.parentNode : target,
+              options = {index: link, event: event},
+              links = this.getElementsByTagName('a');
+              blueimp.Gallery(links, options);
+            };
+          </script>
+
         </div>
-        <script src='./javascript/photoGallery.js'></script>
+        <script src="./plugins/gallery/js/blueimp-gallery.min.js"></script>
       </div>
     </div>
   </div>

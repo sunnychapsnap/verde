@@ -23,6 +23,7 @@ $nav_active: $pale_moss_green;
 $nav_hover: $pale_moss_green;
 $nav_text_color: $black;
 $nav_text_color_active: $black;
+$nav_border_color: $dark_olive_green;
 $box_background: $moss_green;
 $footer_text_color: $black;
 $link_color: $phthalo_green; 
@@ -183,6 +184,8 @@ a:hover {
   background-color: $nav_background;
   font-family: $nav_font;
   font-size: $nav_text_size;
+
+  border-bottom: solid $nav_border_color 1px;
 }
 
 #pg_1 {

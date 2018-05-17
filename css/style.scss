@@ -74,6 +74,10 @@ $testimonial_compact_text_size: 0.9em;
 }
 
 @media all and (min-width: 992px) and (max-width: 1199px) {
+  #pg_1_col_left {
+    padding-top: 70px;
+  }
+
   #pg_1_logo {
     width: $logo_border_size_md;
     height: $logo_border_size_md;

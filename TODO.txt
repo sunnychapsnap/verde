@@ -1,5 +1,4 @@
 
-* Reduce text size in contact section on small screens
-* Look into making lightbox gallery load controls by default
 * Replace thumbnail images
+* Look into making lightbox gallery load controls by default
 

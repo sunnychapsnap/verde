@@ -9,7 +9,10 @@
     height: 350px; }
 
   .testimonial-lg {
-    font-size: 1.2em; } }
+    font-size: 1.2em; }
+
+  #fb_widget_xs {
+    display: none; } }
 @media all and (min-width: 992px) and (max-width: 1199px) {
   #pg_1_col_left {
     padding-top: 70px; }
@@ -24,7 +27,10 @@
     height: 250px; }
 
   .testimonial-lg {
-    font-size: 1.2em; } }
+    font-size: 1.2em; }
+
+  #fb_widget_xs {
+    display: none; } }
 @media all and (min-width: 768px) and (max-width: 991px) {
   #pg_1_logo {
     width: 450px;
@@ -42,7 +48,10 @@
     margin-bottom: 25px; }
 
   .testimonial-lg {
-    font-size: 1.2em; } }
+    font-size: 1.2em; }
+
+  #fb_widget_xs {
+    display: none; } }
 @media all and (min-width: 576px) and (max-width: 767px) {
   #pg_1_logo {
     width: 450px;
@@ -59,7 +68,10 @@
     margin-right: auto; }
 
   .testimonial-lg {
-    font-size: 1.2em; } }
+    font-size: 1.2em; }
+
+  #fb_widget_xs {
+    display: none; } }
 @media all and (min-width: 400px) and (max-width: 575px) {
   #pg_1_logo {
     width: 350px;
@@ -76,8 +88,11 @@
     margin-right: auto; }
 
   .testimonial-lg {
-    font-size: 0.9em; } }
-@media (max-width: 399px) {
+    font-size: 0.9em; }
+
+  #fb_widget_xs {
+    display: none; } }
+@media all and (min-width: 361px) and (max-width: 399px) {
   #pg_1_logo {
     width: 250px;
     height: 250px;
@@ -93,7 +108,36 @@
     margin-right: auto; }
 
   .testimonial-lg {
-    font-size: 0.9em; } }
+    font-size: 0.9em; }
+
+  #pg_4_text > h4 {
+    font-size: 1.2rem; }
+
+  #fb_widget_xs {
+    display: none; } }
+@media (max-width: 360px) {
+  #pg_1_logo {
+    width: 250px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    padding: 30px 38px; }
+
+  #pg_1_logo_img {
+    width: 175px;
+    height: 175px;
+    margin-left: auto;
+    margin-right: auto; }
+
+  .testimonial-lg {
+    font-size: 0.9em; }
+
+  #pg_4_text > h4 {
+    font-size: 1.0rem; }
+
+  #fb_widget_full {
+    display: none; } }
 body {
   font-family: "Arima Madurai", cursive; }
 

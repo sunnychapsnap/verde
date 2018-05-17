@@ -43,6 +43,11 @@ $box_padding: 25px 25px 10px 25px;
 $logo_padding: 50px;
 $logo_corner_radius: 50%;
 $logo_size_lg: 350px;
+$logo_size_md: 250px;
+$logo_border_size_lg: 450px;
+$logo_border_size_md: 350px;
+$testimonial_lg_text_size: 1.2em;
+$testimonial_compact_text_size: 0.9em;
 
 // Responsive CSS
 @media(min-width: 1200px) {
@@ -50,40 +55,110 @@ $logo_size_lg: 350px;
     width: $logo_size_lg;
     height: $logo_size_lg;
   }
+
+  .testimonial-lg {
+    font-size: $testimonial_lg_text_size;
+  }
 }
 
 @media all and (min-width: 992px) and (max-width: 1199px) {
+  #pg_1_logo {
+    width: $logo_border_size_md;
+    height: $logo_border_size_md;
+  }
+
   #pg_1_logo_img {
-    width: $logo_size_lg;
-    height: $logo_size_lg;
+    width: $logo_size_md;
+    height: $logo_size_md;
+  }
+
+  .testimonial-lg {
+    font-size: $testimonial_lg_text_size;
   }
 }
 
 @media all and (min-width: 768px) and (max-width: 991px) {
+  #pg_1_logo {
+    width: $logo_border_size_lg;
+    height: $logo_border_size_lg;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+  }
+
   #pg_1_logo_img {
     width: $logo_size_lg;
     height: $logo_size_lg;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+  }
+
+  .testimonial-lg {
+    font-size: $testimonial_lg_text_size;
   }
 }
 
 @media all and (min-width: 576px) and (max-width: 767px) {
+  #pg_1_logo {
+    width: $logo_border_size_lg;
+    height: $logo_border_size_lg;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+  }
+
   #pg_1_logo_img {
     width: $logo_size_lg;
     height: $logo_size_lg;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .testimonial-lg {
+    font-size: $testimonial_lg_text_size;
   }
 }
 
-@media all and (min-width: 400) and (max-width: 575px) {
+@media all and (min-width: 400px) and (max-width: 575px) {
+  #pg_1_logo {
+    width: $logo_border_size_md;
+    height: $logo_border_size_md;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+  }
+
   #pg_1_logo_img {
-    width: $logo_size_lg;
-    height: $logo_size_lg;
+    width: $logo_size_md;
+    height: $logo_size_md;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .testimonial-lg {
+    font-size: $testimonial_compact_text_size;
   }
 }
 
 @media(max-width: 399px) {
+  #pg_1_logo {
+    width: $logo_border_size_md;
+    height: $logo_border_size_md;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+  }
+
   #pg_1_logo_img {
-    width: $logo_size_lg;
-    height: $logo_size_lg;
+    width: $logo_size_md;
+    height: $logo_size_md;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .testimonial-lg {
+    font-size: $testimonial_compact_text_size;
   }
 }
 
@@ -137,10 +212,6 @@ a:hover {
 
 .testimonial-compact {
   font-size: 0.9em;
-}
-
-.testimonial-lg {
-  font-size: 1.2em;
 }
 
 #pg_2 {
@@ -201,9 +272,3 @@ a:hover {
   padding: 10px;
 }
 
-// The following code is necessary for photo gallery widget to work
-.galleria {
-  max-width: 700px;
-  height: 400px;
-  background: #000 
-}

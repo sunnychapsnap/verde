@@ -1,4 +1,6 @@
-* Reduce logo size for tiny screen widths
+
+* Center logo within border for all sizes
 * Add background for gallery pane
 * Reduce text size in contact section on small screens
 * Look into making lightbox gallery load controls by default
+

@@ -203,12 +203,23 @@ a:hover {
 #pg_1_testimonials {
   font-family: $testimonials_font;
   font-weight: $testimonials_text_weight;
-  padding: 25px 25px 0px 5px;
+  padding: 15px 30px 0px 0px;
 }
 
 #quote-revolver {
   list-style-type: none;
 }
+
+#quote-revolver li {
+  display: table;
+}
+
+#quote-revolver li blockquote {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+
 
 .testimonial-compact {
   font-size: 0.9em;

@@ -41,7 +41,8 @@ $testimonials_text_weight: italic;
 $pg_1_body_padding: 20px 0px 0px 0px;
 $box_corner_radius: 25px;
 $box_padding: 25px 25px 10px 25px;
-$logo_padding: 50px;
+$logo_padding_lg: 35px 50px;
+$logo_padding_md: 35px 50px;
 $logo_padding_sm: 30px 38px;
 $logo_corner_radius: 50%;
 $logo_size_lg: 350px;
@@ -58,7 +59,7 @@ $testimonial_compact_text_size: 0.9em;
   #pg_1_logo {
     width: $logo_border_size_lg;
     height: $logo_border_size_lg;
-    padding: $logo_padding;
+    padding: $logo_padding_lg;
   }
 
   #pg_1_logo_img {
@@ -75,7 +76,7 @@ $testimonial_compact_text_size: 0.9em;
   #pg_1_logo {
     width: $logo_border_size_md;
     height: $logo_border_size_md;
-    padding: $logo_padding;
+    padding: $logo_padding_md;
   }
 
   #pg_1_logo_img {
@@ -95,7 +96,7 @@ $testimonial_compact_text_size: 0.9em;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 25px;
-    padding: $logo_padding;
+    padding: $logo_padding_lg;
   }
 
   #pg_1_logo_img {
@@ -118,7 +119,7 @@ $testimonial_compact_text_size: 0.9em;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 25px;
-    padding: $logo_padding;
+    padding: $logo_padding_lg;
   }
 
   #pg_1_logo_img {
@@ -140,7 +141,7 @@ $testimonial_compact_text_size: 0.9em;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 25px;
-    padding: $logo_padding;
+    padding: $logo_padding_md;
   }
 
   #pg_1_logo_img {

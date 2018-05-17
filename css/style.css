@@ -189,4 +189,8 @@ a:hover {
 .row {
   padding: 10px; }
 
+.img-thumbnail {
+  background-color: #fff;
+  border: 1px outset #055; }
+
 /*# sourceMappingURL=style.css.map */

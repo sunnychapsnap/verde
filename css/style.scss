@@ -222,18 +222,22 @@ a:hover {
   vertical-align: middle;
 }
 
-
-
 .testimonial-compact {
   font-size: 0.9em;
 }
 
 #pg_2 {
-    background-image: url($bg_2_path);
+  background-image: url($bg_2_path);
 }
 
 #pg_3 {
-    background-image: url($bg_3_path);
+  background-image: url($bg_3_path);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#pg_3_header {
+  text-align: center;
 }
 
 #pg_4 {

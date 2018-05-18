@@ -57,6 +57,10 @@ $testimonial_compact_text_size: 0.9em;
 
 // Responsive CSS
 @media(min-width: 1200px) {
+  #nav-title-collapsed {
+    display: none;
+  }
+
   #pg_1_logo {
     width: $logo_border_size_lg;
     height: $logo_border_size_lg;
@@ -78,6 +82,10 @@ $testimonial_compact_text_size: 0.9em;
 }
 
 @media all and (min-width: 992px) and (max-width: 1199px) {
+  #nav-title-collapsed {
+    display: none;
+  }
+
   #pg_1_col_left {
     padding-top: 70px;
   }
@@ -103,13 +111,21 @@ $testimonial_compact_text_size: 0.9em;
 }
 
 @media all and (min-width: 768px) and (max-width: 991px) {
+  #nav-title-collapsed {
+    display: none;
+  }
+
+  #nav-buttons {
+    margin-top: -8px;
+  }
+
   #pg_1_logo {
     width: $logo_border_size_lg;
     height: $logo_border_size_lg;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 25px;
     padding: $logo_padding_lg;
+    margin-bottom: 25px;
   }
 
   #pg_1_logo_img {
@@ -130,6 +146,14 @@ $testimonial_compact_text_size: 0.9em;
 }
 
 @media all and (min-width: 576px) and (max-width: 767px) {
+  #nav-title-collapsed {
+    display: none;
+  }
+
+  #nav-buttons {
+    margin-top: -8px;
+  }
+
   #pg_1_logo {
     width: $logo_border_size_lg;
     height: $logo_border_size_lg;
@@ -264,6 +288,15 @@ a:hover {
   font-size: $nav_text_size;
 
   border-bottom: solid $nav_border_color 1px;
+}
+
+#nav-title-collapsed {
+  position: fixed;
+  top: 18px;
+  right: 25px;
+  z-index: 2000;
+  width: 200px;
+  height: 25px;
 }
 
 #pg_1 {

@@ -1,4 +1,4 @@
 
-* Replace thumbnail images
-* Look into making lightbox gallery load controls by default
+* Resize gallery box
+* Replace background images
 

@@ -1,4 +1,0 @@
-
-* Resize gallery box
-* Replace background images
-

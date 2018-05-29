@@ -189,6 +189,9 @@ a:hover {
   padding: 20px 0px 0px 0px; }
 
 #pg_1_logo {
+  background-color: #0095b6 !important; }
+
+#pg_1_logo {
   margin-top: 25px;
   border-radius: 50%;
   background-color: #ADDFAD; }

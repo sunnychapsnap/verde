@@ -17,6 +17,8 @@ $phthalo_green: #123524;
 $pear: #D1E231;
 $moss_green: #ADDFAD;
 $pale_moss_green: #D0F0C0;
+$pale_blue: #0095b6;
+$veridian_green: #0095b6;
 
 // Color scheme
 $nav_background: $moss_green;
@@ -29,6 +31,7 @@ $box_background: $moss_green;
 $footer_text_color: $black;
 $link_color: $phthalo_green; 
 $link_color_hover: $pale_lime;
+$logo_background_color: $pale_blue;
 
 // Fonts
 $main_font: 'Arima Madurai', cursive;
@@ -305,6 +308,10 @@ a:hover {
 
 #pg_1_body {
   padding: $pg_1_body_padding;
+}
+
+#pg_1_logo {
+  background-color: $logo_background_color!important;
 }
 
 #pg_1_logo {

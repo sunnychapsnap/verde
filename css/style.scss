@@ -17,13 +17,14 @@ $phthalo_green: #123524;
 $pear: #D1E231;
 $moss_green: #ADDFAD;
 $pale_moss_green: #D0F0C0;
-$pale_blue: #0095b6;
-$veridian_green: #0095b6;
+$jungle_mist: #B4CFD3;
+$edgewater: #CBE3D7;
+$dark_sea_green: #8FBC8F;
 
 // Color scheme
-$nav_background: $moss_green;
-$nav_active: $pale_moss_green;
-$nav_hover: $pale_moss_green;
+$nav_background: $jungle_mist;
+$nav_active: $edgewater;
+$nav_hover: $edgewater;
 $nav_text_color: $black;
 $nav_text_color_active: $black;
 $nav_border_color: $dark_olive_green;
@@ -31,7 +32,7 @@ $box_background: $moss_green;
 $footer_text_color: $black;
 $link_color: $phthalo_green; 
 $link_color_hover: $pale_lime;
-$logo_background_color: $pale_blue;
+$logo_background_color: $jungle-mist;
 
 // Fonts
 $main_font: 'Arima Madurai', cursive;
@@ -345,6 +346,10 @@ a:hover {
 
 #pg_2 {
   background-image: url($bg_2_path);
+}
+
+#pg_2_text {
+  background-color: $jungle_mist;
 }
 
 #pg_3 {

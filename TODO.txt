@@ -1,7 +1,7 @@
 
   * Add testimonials
 
-  * Format gallery images
+  * Add new gallery images
 
   * Impliment example color schemes
     * Take screenshots of color scheme examples

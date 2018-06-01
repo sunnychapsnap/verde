@@ -365,6 +365,14 @@ a:hover {
   text-align: center;
 }
 
+#links {
+  text-align: center;
+}
+
+#links a {
+  display: inline-block;
+}
+
 #pg_4 {
   background-image: url($bg_4_path);
 }

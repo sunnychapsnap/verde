@@ -1,9 +1,9 @@
 
-  * Inform Sandy of excessive testimonial length for User3899344
-
-  * Ask Sandy for photograph credits for pictures 14, 18, 19, 20, 21, 22, 23, 24, 26, and 27
-
   * Impliment example color schemes
     * Take screenshots of color scheme examples
       * Send screenshots to Sandy
+
+  * Inform Sandy of excessive testimonial length for User3899344
+
+  * Ask Sandy for photograph credits for pictures 14, 18, 19, 20, 21, 22, 23, 24, 26, and 27
 

@@ -237,6 +237,9 @@ a:hover {
 #pg_4 {
   background-image: url("../assets/background_4.jpg"); }
 
+.contacts-text {
+  font-size: 1.2em; }
+
 #footer {
   background-color: #B4CFD3;
   color: #000000; }

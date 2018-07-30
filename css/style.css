@@ -279,6 +279,7 @@ a:hover {
 
 .img-thumbnail {
   background-color: #fff;
-  border: 1px outset #055; }
+  border: 1px outset #055;
+  margin-bottom: 2px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -258,6 +258,9 @@ a:hover {
 #pg_4 {
   background-image: url("../assets/background_4.jpg"); }
 
+#pg_4_header {
+  text-align: center; }
+
 #contact-name {
   font-size: 1.3em; }
 

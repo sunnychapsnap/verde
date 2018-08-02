@@ -258,6 +258,9 @@ a:hover {
 #pg_4 {
   background-image: url("../assets/background_4.jpg"); }
 
+#pg_4_text {
+  background-color: #B4CFD3; }
+
 #pg_4_header {
   text-align: center; }
 
@@ -266,6 +269,9 @@ a:hover {
 
 #phone-number {
   font-size: 0.7em; }
+
+#facebook-header {
+  font-size: 1.3em; }
 
 #pg_4_facebook_btns {
   background-color: #B4CFD3; }

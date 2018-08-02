@@ -36,6 +36,7 @@ $footer_text_color: $black;
 $link_color: $phthalo_green; 
 $link_color_hover: $pale_lime;
 $logo_background_color: $jungle-mist;
+$pg_4_card_color: $jungle-mist;
 
 // Fonts
 $main_font: 'Arima Madurai', cursive;
@@ -49,6 +50,7 @@ $testimonial_compact_text_size: 0.8em;
 $contacts_text_size: 1.1em;
 $contact_name_text_size: 1.3em;
 $phone_number_text_size: 0.7em;
+$facebook_header_font_size: 1.3em;
 
 // Layout and positioning
 $pg_1_body_padding: 20px 0px 0px 0px;
@@ -408,6 +410,10 @@ a:hover {
   background-image: url($bg_4_path);
 }
 
+#pg_4_text {
+  background-color: $pg_4_card_color;
+}
+
 #pg_4_header {
   text-align: center;
 }
@@ -418,6 +424,10 @@ a:hover {
 
 #phone-number {
   font-size: $phone_number_text_size;
+}
+
+#facebook-header {
+  font-size: $facebook_header_font_size;
 }
 
 #pg_4_facebook_btns {

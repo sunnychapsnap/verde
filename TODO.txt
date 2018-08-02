@@ -1,4 +1,5 @@
--switch testimonials (smaller text)
+
+-smaller testimonial text
 -blue and green (see email)
 -background on first page
 

@@ -59,8 +59,8 @@ $logo_size_md: 250px;
 $logo_border_size_md: 350px;
 $logo_size_sm: 175px;
 $logo_border_size_sm: 250px;
-$testimonial_lg_text_size: 1.0em;
-$testimonial_compact_text_size: 0.9em;
+$testimonial_lg_text_size: 0.8em;
+$testimonial_compact_text_size: 0.8em;
 $contacts_text_size: 1.2em;
 
 // Responsive CSS
@@ -82,6 +82,10 @@ $contacts_text_size: 1.2em;
 
   .testimonial-lg {
     font-size: $testimonial_lg_text_size;
+  }
+
+  .testimonial-compact {
+    font-size: $testimonial_compact_text_size;
   }
 
   #fb_widget_xs {
@@ -111,6 +115,10 @@ $contacts_text_size: 1.2em;
 
   .testimonial-lg {
     font-size: $testimonial_lg_text_size;
+  }
+
+  .testimonial-compact {
+    font-size: $testimonial_compact_text_size;
   }
 
   #fb_widget_xs {
@@ -148,6 +156,10 @@ $contacts_text_size: 1.2em;
     font-size: $testimonial_lg_text_size;
   }
 
+  .testimonial-compact {
+    font-size: $testimonial_compact_text_size;
+  }
+
   #fb_widget_xs {
     display: none;
   }
@@ -182,6 +194,10 @@ $contacts_text_size: 1.2em;
     font-size: $testimonial_lg_text_size;
   }
 
+  .testimonial-compact {
+    font-size: $testimonial_compact_text_size;
+  }
+
   #fb_widget_xs {
     display: none;
   }
@@ -208,6 +224,10 @@ $contacts_text_size: 1.2em;
     font-size: $testimonial_compact_text_size;
   }
 
+  .testimonial-compact {
+    font-size: $testimonial_compact_text_size;
+  }
+
   #fb_widget_xs {
     display: none;
   }
@@ -231,6 +251,10 @@ $contacts_text_size: 1.2em;
   }
 
   .testimonial-lg {
+    font-size: $testimonial_compact_text_size;
+  }
+
+  .testimonial-compact {
     font-size: $testimonial_compact_text_size;
   }
 
@@ -261,6 +285,10 @@ $contacts_text_size: 1.2em;
   }
 
   .testimonial-lg {
+    font-size: $testimonial_compact_text_size;
+  }
+
+  .testimonial-compact {
     font-size: $testimonial_compact_text_size;
   }
 
@@ -342,10 +370,6 @@ a:hover {
 #quote-revolver li blockquote {
   display: table-cell;
   vertical-align: middle;
-}
-
-.testimonial-compact {
-  font-size: 0.9em;
 }
 
 #pg_2 {

@@ -353,6 +353,10 @@ a:hover {
   background-color: $box_background;
 }
 
+#pg_1_textbox {
+  background-color: $jungle_mist;
+}
+
 #pg_1_testimonials {
   font-family: $testimonials_font;
   font-weight: $testimonials_text_weight;
@@ -402,8 +406,8 @@ a:hover {
   background-image: url($bg_4_path);
 }
 
-.contacts-text {
-  font-size: $contacts_text_size;
+#pg_4_facebook_btns {
+  background-color: $jungle_mist;
 }
 
 #footer {
@@ -456,4 +460,8 @@ a:hover {
   background-color: #fff;
   border: 1px outset #055;
   margin-bottom: 2px;
+}
+
+.contacts-text {
+  font-size: $contacts_text_size;
 }

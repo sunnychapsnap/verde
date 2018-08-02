@@ -44,6 +44,10 @@ $nav_font: 'Berkshire Swash', cursive;
 $nav_text_size: 1em;
 $testimonials_font: 'Arima Madurai', cursive;
 $testimonials_text_weight: italic;
+$testimonial_lg_text_size: 0.8em;
+$testimonial_compact_text_size: 0.8em;
+$contacts_text_size: 1.2em;
+$phone_number_text_size: 0.7em;
 
 // Layout and positioning
 $pg_1_body_padding: 20px 0px 0px 0px;
@@ -59,9 +63,6 @@ $logo_size_md: 250px;
 $logo_border_size_md: 350px;
 $logo_size_sm: 175px;
 $logo_border_size_sm: 250px;
-$testimonial_lg_text_size: 0.8em;
-$testimonial_compact_text_size: 0.8em;
-$contacts_text_size: 1.2em;
 
 // Responsive CSS
 @media(min-width: 1200px) {
@@ -464,4 +465,8 @@ a:hover {
 
 .contacts-text {
   font-size: $contacts_text_size;
+}
+
+.phone-number {
+  font-size: $phone_number_text_size;
 }

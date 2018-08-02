@@ -1,9 +1,11 @@
--contact form
+-switch testimonials (smaller text)
+-blue and green (see email)
+-background on first page
+
+-delete photos
+
 -smaller text for phone
 -larger text for email
--switch testimonials (smaller text)
--delete photos
--background on first page
--blue and green
+
 -positioning on first page
 

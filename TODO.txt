@@ -1,4 +1,2 @@
 
--gallery layout
-
 -test mobile/tablet layouts

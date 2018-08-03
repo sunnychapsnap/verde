@@ -1,10 +1,4 @@
 
--background on first page
-
 -delete photos
 
--smaller text for phone
--larger text for email
-
--positioning on first page
-
+-test mobile/tablet layouts

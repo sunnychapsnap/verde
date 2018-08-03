@@ -278,7 +278,8 @@ a:hover {
   background-image: url("../assets/background_4.jpg"); }
 
 #pg_4_text {
-  background-color: #B4CFD3; }
+  background-color: #B4CFD3;
+  padding-bottom: 25px; }
 
 #pg_4_header {
   text-align: center; }

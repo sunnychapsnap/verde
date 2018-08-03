@@ -1,6 +1,4 @@
 
 -gallery layout
 
--update credits on photos
-
 -test mobile/tablet layouts

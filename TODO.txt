@@ -1,4 +1,4 @@
 
--delete photos
+-delete photos (16, 6, 18, and 24)
 
 -test mobile/tablet layouts
